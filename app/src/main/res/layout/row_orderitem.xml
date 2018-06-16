@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/border_bottom"
+     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/re"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                
+                android:text="Ref No :"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/reciptno"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:text="Reciept No"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/ondate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Date :"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/xml_green_button"
+            android:text="Status"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+</LinearLayout>

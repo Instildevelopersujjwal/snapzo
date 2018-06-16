@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.vegitable.ViewcartActivity" >
+
+     <item
+        android:id="@+id/emptycart"
+        android:orderInCategory="100"
+        android:title="Empty Cart"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/emptycart" />
+
+</menu>

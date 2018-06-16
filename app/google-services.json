@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "900937893973",
+    "firebase_url": "https://snapzo-kc108.firebaseio.com",
+    "project_id": "snapzo-kc108",
+    "storage_bucket": "snapzo-kc108.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900937893973:android:d73cf9180c5a01ab",
+        "android_client_info": {
+          "package_name": "com.developer.snapzo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900937893973-oeulo398ek40r0k13cbo7csii53qcfqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB51e4GLItDaGOin3IlL2SVxGCsWIpRvwQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

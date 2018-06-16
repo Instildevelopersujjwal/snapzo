@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="light_graya">#e5e5e5</color>
+
+    <color name="light_gray">#4CC0BF</color>
+    <color name="extra_light_gray">#f2f2f2</color>
+    <color name="fab_color_1">#4CC0BF</color>
+    <color name="fab_color_1_muted">#ff8080</color>
+    <color name="fab_color_2">#9c27b0</color>
+    <color name="colorPrimary">#9c27b0</color>
+    <color name="fab_color_2_muted">#a56ab0</color>
+    <color name="navigationbar">#ffa803</color>
+    <color name="sp">#4CC0BF</color>
+    <color name="colorAccent">#4CC0BF</color>
+</resources>

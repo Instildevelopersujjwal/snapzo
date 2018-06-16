@@ -1,0 +1,174 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/shop">
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:background="@drawable/rounded"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp" >
+
+            <EditText
+                android:id="@+id/editFname"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:drawableLeft="@drawable/firm"
+                android:background="@drawable/round_edittext"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/fab_color_1_muted"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                android:ems="10"
+                android:hint="@string/text_hint_fname"
+                android:lines="1"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/editUsername"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/user"
+                android:background="@drawable/round_edittext"
+                android:drawablePadding="5dp"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                android:drawableTint="@color/fab_color_1_muted"
+                android:ems="10"
+                android:hint="@string/text_hint_username"
+                android:lines="1"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/editEmail"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/round_edittext"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/email"
+                android:drawablePadding="10dp"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                android:drawableTint="@color/fab_color_1_muted"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:lines="1"
+                android:maxLines="1" />
+
+            <EditText
+                android:id="@+id/editPhone"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_edittext"
+                android:drawableLeft="@drawable/phone"
+                android:drawablePadding="10dp"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                android:drawableTint="@color/fab_color_1_muted"
+                android:ems="10"
+                android:hint="@string/text_hint_phone"
+                android:inputType="phone"
+                android:lines="1"
+                android:maxLines="1"
+                android:singleLine="true" 
+                android:focusable="false"
+                />
+
+            <EditText
+                android:id="@+id/editAddress"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_edittext"
+                android:drawableLeft="@drawable/location"
+                android:drawablePadding="10dp"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                android:drawableTint="@color/fab_color_1_muted"
+                android:ems="10"
+                android:hint="@string/text_hint_address"
+                android:inputType="textPostalAddress"
+                android:lines="1"
+                android:maxLines="1"
+                android:singleLine="true" />
+            <EditText
+                android:id="@+id/editZipcode"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/round_edittext"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/location"
+                android:drawablePadding="10dp"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                android:drawableTint="@color/fab_color_1_muted"
+                android:ems="10"
+                android:hint="@string/text_hint_zipcode"
+                android:lines="1"
+                android:maxLines="1"
+                android:singleLine="true" />
+            <EditText
+                android:id="@+id/editCity"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_edittext"
+                android:drawableLeft="@drawable/location"
+                android:drawablePadding="10dp"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                android:drawableTint="@color/fab_color_1_muted"
+                android:ems="10"
+                android:hint="@string/text_hint_city"
+                android:lines="1"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/btnupadate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_shape_button"
+                android:text="@string/btn_profile_update"
+                android:textColor="@color/white" />
+        </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+        
+
+
+       
+
+</RelativeLayout>

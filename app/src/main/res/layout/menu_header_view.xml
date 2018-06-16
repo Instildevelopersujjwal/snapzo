@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/left_top"
+    android:padding="20dp" >
+    <imgLoader.RoundedImageView android:id="@+id/left_user_image"
+            	    android:layout_width="100dp"
+        			android:layout_height="100dp"
+        			android:src="@drawable/icons_side_menu_03"
+        			android:layout_marginRight="10dp"
+        			android:scaleType="centerCrop"
+            	    />
+        	<LinearLayout android:id="@+id/left_top_right"
+            android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical"
+		        >
+            	    <TextView
+            	    android:id="@+id/left_user_title"
+            	    android:text="Simons Aberfa"
+            	    android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"
+		        	android:textSize="20dp"
+		        	 />
+
+            	   
+
+            	        <ImageView
+                            android:id="@+id/imageView1"
+            	            android:layout_width="wrap_content"
+            	            android:layout_height="wrap_content"
+            	            android:src="@drawable/location"
+							android:tint="@color/fab_color_1_muted"
+
+            	            android:layout_marginTop="3dp"
+                            android:layout_marginRight="5dp"
+                            android:backgroundTint="@color/fab_color_1_muted"/>
+
+            	        <TextView
+            	            android:id="@+id/left_user_desc"
+            	            android:layout_width="wrap_content"
+            	            android:layout_height="match_parent"
+            	            android:text="San Francisco, CA" />
+            	   
+            	</LinearLayout>
+
+</LinearLayout>

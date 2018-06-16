@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<LinearLayout
+    android:id="@+id/linearlayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="@drawable/rounded"
+            android:backgroundTint="@color/fab_color_1_muted"
+            >
+
+          <TextView
+              android:layout_width="0dip"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:layout_weight="0.6"
+              android:text="@string/txt_product"
+              android:paddingLeft="10dp"
+              android:textStyle="bold"
+              android:textColor="#ffffff" />
+
+            <TextView
+                 android:layout_width="50dip"
+                 android:layout_height="wrap_content"
+                
+                 android:text="@string/txt_price"
+                  android:layout_gravity="center"
+                   android:textStyle="bold"
+                 android:textColor="#ffffff"
+                 />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="50dip"
+             
+                android:text="@string/txt_qty"
+                 android:textStyle="bold"
+                android:layout_gravity="center"
+                 android:textColor="#ffffff"
+                 />
+            
+           
+
+            
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="80dip"
+              
+                android:text="@string/txt_amount"
+                 android:textStyle="bold"
+                 android:layout_gravity="center"
+                 android:textColor="#ffffff"
+                />
+
+        </LinearLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent" >
+            
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/footerLayout"
+        android:background="@drawable/rounded"
+        android:layout_alignParentTop="true" >
+
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/footerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/textTotalAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="8dp"
+                android:text="Total" />
+            <TextView
+                android:id="@+id/textDeliveryCharge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="8dp"
+                android:text="Total" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonCancle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/round_shape_button"
+            android:textColor="@color/white"
+            android:text="Cancle Order" />
+    </LinearLayout>
+      
+</RelativeLayout>
+
+</LinearLayout>

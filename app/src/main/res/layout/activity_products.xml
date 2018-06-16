@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.developer.snapzo.ProductsActivity" >
+
+    <RelativeLayout
+        android:id="@+id/relativelayout1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="@color/light_graya">
+
+        <TextView
+            android:id="@+id/catname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textcount"
+            android:layout_alignBottom="@+id/textcount"
+            android:layout_toRightOf="@+id/textcount"
+             android:textColor="@color/white"
+            android:text=" Products" />
+
+        <TextView
+            android:id="@+id/textcount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/catname"
+            android:layout_alignBottom="@+id/catname"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="14dp"
+            android:text="Count"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativelayout1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" >
+
+    </ListView>
+
+</RelativeLayout>

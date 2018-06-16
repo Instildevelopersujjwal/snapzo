@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <pl.droidsonroids.gif.GifTextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/query" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/satisfaction_user"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textViewName" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtName"
+        android:lines="1"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:padding="15dp"
+        android:drawablePadding="5dp"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"
+        android:background="@drawable/round_edittext"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/satisfaction_Email"
+        android:layout_gravity="center"
+        android:id="@+id/textViewemail" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:padding="15dp"
+        android:drawablePadding="5dp"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"
+        android:background="@drawable/round_edittext"
+        android:id="@+id/txtEmail"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/satisfaction_comment"
+        android:id="@+id/textViewcomment"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:inputType="textMultiLine"
+        android:background="@drawable/round_edittext"
+        android:ems="10"
+        android:id="@+id/txtComment"
+         />
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/round_shape_button"
+        android:text="@string/satisfaction_send"
+
+        android:textColor="@color/white" />
+</LinearLayout>

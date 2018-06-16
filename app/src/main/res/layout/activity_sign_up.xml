@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rounded"
+        android:layout_marginTop="20dp"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:paddingTop="30dp">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp" >
+
+
+
+            <EditText
+                android:id="@+id/editbuisnes"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/round_edittext"
+                android:drawableLeft="@drawable/firm"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/colorAccent"
+                android:hint="Enter Buisness Name"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                android:inputType="text"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/editCity"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/round_edittext"
+                android:drawableLeft="@drawable/location"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/colorAccent"
+                android:hint="City"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                android:inputType="text"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/edit_name"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/round_edittext"
+                android:drawableLeft="@drawable/user"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/colorAccent"
+                android:hint="Enter Name"
+                android:inputType="text"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                android:singleLine="true" />
+            <EditText
+                android:id="@+id/edit_email"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/round_edittext"
+                android:drawableLeft="@drawable/email"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/colorAccent"
+                android:hint="Enter Email"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"/>
+            <EditText
+                android:id="@+id/edit_gstin"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/round_edittext"
+                android:drawableLeft="@drawable/gst"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/colorAccent"
+                android:hint="Enter GSTin No."
+                android:inputType="number"
+                android:singleLine="true"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"/>
+
+            <EditText
+                android:id="@+id/edit_phone"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/phone"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/colorAccent"
+                android:background="@drawable/round_edittext"
+                android:singleLine="true"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                android:hint="Enter Mobile no."
+                android:inputType="number"
+                 />
+
+            <EditText
+                android:id="@+id/editPassword"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/round_edittext"
+                android:hint="@string/text_hint_password"
+                android:inputType="textPassword"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/colorAccent"
+                 android:drawableLeft="@drawable/lock" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/app_terms_services"
+                android:textSize="13sp"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_green_light" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/round_shape_button"
+                android:text="@string/btn_continue"
+                android:textColor="@color/white" />
+
+
+
+        </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</RelativeLayout>
+</RelativeLayout>

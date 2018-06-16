@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.developer.snapzo.PlaceorderActivity" >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded"
+        android:padding="20dp">
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/checkmark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your order has been confirmed and will be dispatched soon. Meanwhile, you can check status of your order"
+            android:id="@+id/textView"
+            android:layout_margin="10dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="TRACK ORDER"
+            android:id="@+id/button"
+            android:background="@drawable/round_shape_button"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="UPDATE PROFILE"
+            android:id="@+id/button2"
+            android:background="@drawable/round_shape_button"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="CONTINUE SHOPPING"
+            android:id="@+id/button3"
+            android:background="@drawable/round_shape_button"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            />
+
+    </LinearLayout>
+</RelativeLayout>
